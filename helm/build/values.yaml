@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app51
+  namespace: my-quarkus-app51-dev
+  cluster: .apps.cluster-fjxjm.fjxjm.sandbox1445.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/janus-idp-demo/backstage-sample-quarkus-app51
+  org: janus-idp-demo
+  name: backstage-sample-quarkus-app51
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app51
+  tag: latest
